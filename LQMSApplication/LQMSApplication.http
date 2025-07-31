@@ -1,0 +1,6 @@
+@LQMSApplication_HostAddress = http://localhost:5000
+
+GET {{LQMSApplication_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
