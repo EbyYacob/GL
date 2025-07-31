@@ -15,6 +15,8 @@ builder.Services.AddSingleton<DapperService>();
 builder.Services.AddSingleton<CryptoService>(); // OR AddScoped<CryptoService>();
 
 
+
+
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
